@@ -1,7 +1,7 @@
 package config
 
 import (
-	test "GoDemo/TestClass"
+	test "GoProject/TestClass"
 	"fmt"
 )
 

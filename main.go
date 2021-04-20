@@ -6,8 +6,8 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	config "GoDemo/ConfigClass"
-	test "GoDemo/TestClass"
+	config "GoProject/ConfigClass"
+	test "GoProject/TestClass"
 )
 
 // func main() {
