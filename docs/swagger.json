@@ -1,0 +1,48 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "description": "This is a sample server Petstore server.",
+        "title": "Swagger Example API",
+        "contact": {},
+        "version": "0.0.1"
+    },
+    "basePath": "/api/v1/",
+    "paths": {
+        "/api/v1/getJson":{
+            "produces": [
+                "application/json"
+            ],
+            "summary": "Get multiple articles",
+            "parameters": [
+                {
+                    "description": "TagID",
+                    "name": "tag_id",
+                    "in": "body",
+                    "schema": {
+                        "type": "integer"
+                    }
+                }
+
+            ],
+            "responses": {
+                "200": {
+                    "description": "OK",
+                    "schema": {
+                        "$ref": "good"
+                    }
+                },
+                "500": {
+                    "description": "Internal Server Error",
+                    "schema": {
+                        "$ref": "bad"
+                    }
+                }
+
+
+            }
+
+
+        }
+
+    }
+}
