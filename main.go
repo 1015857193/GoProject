@@ -10,7 +10,6 @@ import (
 	"time"
 
 	_ "GoProject/docs"
-	//_ "github.com/swaggo/gin-swagger/example/docs"
 
 	"github.com/gin-gonic/gin"
 	ginSwagger "github.com/swaggo/gin-swagger"
