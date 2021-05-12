@@ -14,9 +14,6 @@ import (
 	"github.com/gin-gonic/gin"
 	ginSwagger "github.com/swaggo/gin-swagger"
 	"github.com/swaggo/gin-swagger/swaggerFiles"
-
-	config "GoProject/ConfigClass"
-	test "GoProject/TestClass"
 )
 
 // func main() {
@@ -67,8 +64,6 @@ func TestMain() {
 
 	gin.ForceConsoleColor()
 
-	test.Log()
-	config.ConfigLog()
 	fmt.Println("有意思")
 
 	router := gin.Default()
